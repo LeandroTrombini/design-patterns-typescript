@@ -1,6 +1,6 @@
 {
   "code-runner.executorMap": {    
-    "typescript": "npx ts-node --files --transpile-only"   
+    "typescript": "NO_UPDATE_NOTIFIER=true npx ts-node --files --transpile-only"   
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
